@@ -1,5 +1,6 @@
 #!/bin/sh
 ## Preparing all the variables like IP, Hostname, etc, all of them from the container
+apt update
 sleep 5
 HOSTNAME=$(hostname -a)
 DOMAIN=$(hostname -d)
